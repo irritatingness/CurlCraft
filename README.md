@@ -8,9 +8,11 @@ Actions range from simple pre-defined ones such as healing a player to passthrou
 Curl craft provides only two RESTful endpoints, one of which may be disabled.
 
 **GET <your_server_ip>:<configurable_port>/curlcraft**
+
 This endpoint simply returns a list of players (or as you'll see in the second endpoint, potential 'targets'). There is a configuration option to disable this endpoint as it does not require a password to be executed.
 
 **POST <your_server_ip_>:<configurable_port>/curlcraft**
+
 This endpoint serves as the sole entrypoint for executing actions via CurlCraft. The POST request must contain a body with a JSON including a `password` key as well as a `action` OR `customCommand` key. The body may also optionally include a `target` key to specify the target of an `action` that requires a target.
 
 Example POST body:
