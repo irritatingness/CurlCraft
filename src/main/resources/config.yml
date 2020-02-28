@@ -1,0 +1,9 @@
+# Port to use for CurlCraft API endpoint
+port: 4567
+
+# Password for API calls
+password: test
+
+# Config boolean to enable / disable custom commands
+# If enabled, CurlCraft will first check the body for a “custom” JSON key, and then execute the command passed in the value as the console.
+customCommands: true
