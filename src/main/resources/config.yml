@@ -7,3 +7,6 @@ password: test
 # Config boolean to enable / disable custom commands
 # If enabled, CurlCraft will first check the body for a “custom” JSON key, and then execute the command passed in the value as the console.
 customCommands: true
+
+# Currently available actions:
+# heal, feed, burn, smite, explode, explodeNoBlockDamage, spawnCreeper
